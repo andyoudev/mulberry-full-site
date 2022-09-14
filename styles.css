@@ -55,6 +55,34 @@ form {
   font-style: italic;
 }
 
+.link-btn-light-outline {
+  /* width: 300px; */
+  background-color: transparent;
+  border-color: #F3F1E6;
+  border-style: solid;
+  border-width: 2px;
+  color: #F3F1E6;
+  letter-spacing: 3px;
+  margin: 0 2% 0 0;
+  padding: 0.5% 7% 0.5% 7%;
+}
+
+.link-btn-colour-outline {
+  /* width: 300px; */
+  background-color: transparent;
+  border-color: #4782A6;
+  border-style: solid;
+  border-width: 2px;
+  color: #4782A6;
+  letter-spacing: 3px;
+  margin: 0 2% 0 0;
+  padding: 0.5% 7% 0.5% 7%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 /* section {
   width: 100%;
 } */
@@ -74,8 +102,7 @@ form {
   width: 100%;
   height: 70px;
   background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
-  /* background-color: #1f4468;
-  opacity: 0.6; */
+  
 }
 
 .navbar {
@@ -377,31 +404,20 @@ form {
 
 .can-water-se16-text-container {
   text-align: left;
-  width: 90%;
+  width: 100%;
   padding: 0;
   margin: auto;
 }
 
-.loc-desc-white-colour-border-spaced {
-  position: absolute;
-  /* width: 50%; */
-  width: 600px;
-  /* border-color: white;
-  border-style: solid;
-  border-width: 2px; */
-  bottom: 0px;
-  right: 10px;
-  padding: 2%;
-  /* padding-bottom: 2%; */
-  /* margin: -30% 0 0 49%; */
-}
+
 
 .loc-desc-box-bg-inside {
   /* position: relative; */
   /* height: 75%; */
   /* box below + 200 */
   color: #F3F1E6;
-  background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
+  background-color: #4782A6;
+  /* background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8)); */
   /* background-color: #4782A6; */
   text-align: left;
 
@@ -421,6 +437,7 @@ form {
 .transp-intro-text-container {
   text-align: left;
   width: 90%;
+  height: 550px;
   padding-top: 65px;
   margin: auto;
 }
@@ -489,6 +506,26 @@ form {
   width: 100%;
   height: 600px;
   margin: 10px 0 0 0;
+}
+
+.register-now-section {
+  color: #F3F1E6;
+  background-color: #4782A6;
+  padding: 25px 0 25px 0;
+}
+
+.top-btm-boarder {
+  border-color: #F3F1E6;
+  border-top: solid;
+  border-bottom: solid;
+  /* border-style: solid; */
+  border-width: 2px;
+  padding: 50px 0 50px 0;
+}
+
+.view-brochure-section {
+  color: #4782A6;
+  background-color: #F3F1E6;
 }
 
 
@@ -601,6 +638,97 @@ form {
   font-size: 0.7rem;
 }
 
+
+/* Development Page */
+.img-slider-section-devel {
+  color: #4782A6;
+  background-color: #F3F1E6;
+}
+
+.my-slider-container {
+  width: 70%;
+  margin: auto;
+}
+
+.devel-details-section {
+  color: #4782A6;
+  background-color: #F3F1E6;
+}
+
+.devel-details-col-container {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+.devel-details-para {
+  color: black;
+}
+
+/* Availability Page */
+.avail-btn-inline-div {
+  display: inline-block;
+  width: 150px;
+  margin: 0 20px 0 20px;
+}
+
+.avail-btn {
+  /* width: 300px; */
+  background-color: transparent;
+  border-color: #4782A6;
+  border-style: solid;
+  border-width: 2px;
+  color: #4782A6;
+  letter-spacing: 1px;
+  margin: 0 2% 0 0;
+  padding: 2% 10% 2% 10%;
+}
+
+.avail-btn:hover {
+  background-color: #4782A6;
+  border-color: #F3F1E6;
+  color: #F3F1E6;
+}
+
+.avail-btn-active {
+  background-color: #4782A6;
+  border-color: #F3F1E6;
+  color: #F3F1E6;
+}
+
+.aprt-hlights-container {
+  width: 90%;
+  background-color: #4782A6;
+  padding: 10px;
+  margin: auto;
+}
+
+.avail-flrpln-img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.sub-details-container {
+  text-align: left;
+  padding: 10px 0 10px 0;
+}
+
+#one-bed-avail {
+  display: initial;
+}
+
+#two-bed-avail {
+  display: none;
+}
+
+#three-bed-avail {
+  display: none;
+}
+
+.avail-discl-section {
+  color: #4782A6;
+}
+
 @media only screen and (max-width: 1500px) {
   .my-width-control {
     width: 1400px;
@@ -671,6 +799,18 @@ form {
 
   p {
     font-size: 1rem;
+  }
+
+  #navbarTogglerMulberry {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
+    padding: 2%;
+  }
+
+  #tablet-reg-nav-btn {
+    display: initial;
   }
 
   .p-big-italic-heading {
@@ -759,6 +899,11 @@ form {
   .wand-sticky-top-bar {
     text-align: center;
   }
+
+  #tablet-reg-nav-btn {
+  display: none;
+  }
+
 
   #mul-reg-title {
     display: none;
