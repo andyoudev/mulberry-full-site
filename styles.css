@@ -27,6 +27,10 @@ form {
   text-align: left;
 }
 
+button {
+  font-weight: 600;
+}
+
 .my-width-control {
   width: 1500px;
   padding-left: 2%;
@@ -37,7 +41,7 @@ form {
 .p-small-heading {
   /* color: #F3F1E6; */
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .p-big-italic-heading {
@@ -81,6 +85,18 @@ form {
   padding: 0.5% 5% 0.5% 5%;
 }
 
+.link-btn-solid-dark {
+  background-color: #4782A6;
+  border-color: #4782A6;
+  border-style: solid;
+  border-width: 2px;
+  color: #F3F1E6;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 10px 0 0 0;
+  padding: 0.5% 5% 0.5% 5%;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -104,7 +120,7 @@ form {
   width: 100%;
   height: 70px;
   background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8));
-
+  padding-right: 40px;
 }
 
 .navbar {
@@ -121,7 +137,15 @@ form {
 .nav-link {
     /* color not working for some reason */
   /* color: #F3F1E6; */
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+.my-nav-color {
+  color: #F3F1E6;
+}
+
+.my-nav-color:hover {
+  color: #FFE9A0;
 }
 
 .title-div {
@@ -213,9 +237,9 @@ form {
   border-style: solid;
   border-width: 2px;
   color: #F3F1E6;
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 2px;
-  margin: 2% 0 0 0;
+  margin: 5px 0 0 0;
   padding: 0.5% 1% 0.5% 1%;
 }
 
@@ -229,8 +253,8 @@ form {
   color: #F3F1E6;
   font-size: 0.8rem;
   letter-spacing: 2px;
-  margin: 0 2% 0 0;
-  padding: 0.5% 2% 0.5% 2%;
+  margin: 10px 0 0 0;
+  padding: 0.5% 1% 0.5% 1%;
 }
 
 .landing-page-section {
@@ -244,24 +268,55 @@ form {
   overflow: hidden;
 }
 
+.dev-landing-page-section {
+  width: 100%;
+  height: 670px;
+  background-image: url("images/development-hero-img.jpg");
+  background-position: center bottom;
+  background-size: 100% auto;
+  margin-top: -70px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.area-landing-page-section {
+  width: 100%;
+  height: 670px;
+  background-image: url("images/area-hero-img.jpg");
+  background-position: center top;
+  background-size: 100% auto;
+  margin-top: -70px;
+  padding: 0;
+  overflow: hidden;
+}
+
 
 
 .intro-text-section {
+  height: 270px;
+  background-image: url("images/intro-text-bg-img.png");
+  background-position: center bottom;
+  background-size: 100% auto;
   background-color: #F3F1E6;
   text-align: center;
   color: #4782A6;
+  margin-bottom: -20px;
   padding: 40px 0 30px 0;
 }
 
 .p1-intro {
-  font-family: 'Zen Tokyo Zoo', cursive;
+  /* font-family: 'Zen Tokyo Zoo', cursive; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   color: #4782A6;
   font-size: 3rem;
   letter-spacing: 2px;
 }
 
 .p1-intro-hlight {
-  font-family: 'Zen Tokyo Zoo', cursive;
+  /* font-family: 'Zen Tokyo Zoo', cursive; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
   color: #4782A6;
   font-size: 2.4rem;
   letter-spacing: 2px;
@@ -270,13 +325,13 @@ form {
 .p2-intro {
   color: #4782A6;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .p3-intro {
   color: #4782A6;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .development-image-section {
@@ -319,7 +374,7 @@ form {
   overflow: hidden;
   background-repeat: no-repeat;
   /* padding: 12% 0 3% 0; */
-  margin: auto;
+  margin: 20px auto 0 auto;
 }
 /* .welc-img-container {
   width: 90%;
@@ -412,7 +467,7 @@ form {
 .location-text-section {
   width: 100%;
   background-image: url("images/canada-water-masterplan-img.jpg");
-  background-position: center bottom;
+  background-position: center -200px;
   background-size: 100% auto;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -422,9 +477,12 @@ form {
 .section-w-bg-image-fade {
   position: relative;
   width: 100%;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(243, 241, 230, 1));
-  background-position: center bottom;
-  background-size: 100% auto;
+  background-image: linear-gradient(to right, rgba(71, 130, 166, 1), rgba(71, 130, 166, 1));
+  /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); */
+  /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(243, 241, 230, 1)); */
+  background-position: left bottom;
+  background-size: 20% auto;
+  background-repeat: no-repeat;
   overflow: hidden;
   margin-top: -2px;
 }
@@ -442,6 +500,7 @@ form {
   /* position: relative; */
   /* height: 75%; */
   /* box below + 200 */
+  width: 95%;
   color: #F3F1E6;
   background-color: #4782A6;
   /* background-image: linear-gradient(to top, rgba(71, 130, 166, 0.8), rgba(71, 130, 166, 0.8)); */
@@ -451,7 +510,8 @@ form {
   /* width: 90%;
   margin: auto; */
 
-  padding: 60px 60px 60px 70px;
+  padding: 80px 50px 80px 12px;
+  margin: 0 1% 0 auto;
   /* opacity: 0.8; */
   /* z-index: 6; */
 }
@@ -590,10 +650,10 @@ form {
 
 .wandle-text-section {
   width: 100%;
-  /* height: 800px; */
+  height: 1100px;
   background-image: url("images/couple-in-new-home-web.png");
   background-position: right top;
-  background-size: 2110px 100%;
+  background-size: 2110px auto;
 
   /* background-size: 2110px 1200px; */
   /* background-size: 100% auto; */
@@ -641,6 +701,36 @@ form {
   margin-top: 3%;
 }
 
+.how-it-works-container {
+  position: relative;
+  height: 250px;
+}
+
+.how-it-works-img {
+  position: absolute;
+  width: 300px;
+  top: 10px;
+  left: 10px;
+}
+
+.how-it-works-text-dep {
+  position: absolute;
+  top: 5px;
+  left: 320px;
+}
+
+.how-it-works-text-mort {
+  position: absolute;
+  top: 55px;
+  left: 320px;
+}
+
+.how-it-works-text-rent {
+  position: absolute;
+  top: 125px;
+  left: 320px;
+}
+
 .foot-section {
   width: 100%;
   background-color: #4782A6;
@@ -667,13 +757,22 @@ form {
 
 
 /* Development Page */
+
+.dev-welc-text-container {
+  /* text-align: left; */
+  width: 60%;
+  padding-top: 0;
+  padding-left: 10px;
+  margin: auto;
+}
+
 .img-slider-section-devel {
   color: #4782A6;
   background-color: #F3F1E6;
 }
 
 .my-slider-container {
-  width: 70%;
+  width: 95%;
   margin: auto;
 }
 
@@ -691,6 +790,10 @@ form {
 .devel-details-para {
   color: black;
 }
+
+/* Area Page */
+
+
 
 /* Availability Page */
 .avail-btn-inline-div {
@@ -754,8 +857,27 @@ form {
 
 /* Apartment Details Section */
 
+.apart-header-section {
+  /* height: 270px; */
+  background-color: #F3F1E6;
+  text-align: center;
+  color: #4782A6;
+  padding: 40px 0 30px 0;
+}
+
+.apartment-iframe-container {
+  width: 70%;
+  margin: auto;
+}
+
 .apart-details-section {
   color: #4782A6;
+  padding-top: 0;
+}
+
+.all-apart-deets-container {
+  width: 70%;
+  margin: 70px auto 70px auto;
 }
 
 .apart-deets-list-container {
@@ -766,11 +888,38 @@ form {
   text-align: left;
 }
 
+.apart-deets-item {
+  margin-bottom: 10px;
+}
+
+.apart-deets-list-bold {
+  font-weight: bolder;
+  color: #4782A6;
+}
+
+.apart-deets-list-plain {
+  color: black;
+}
+
+.apart-disclaimer-div {
+  width: 70%;
+  text-align: left;
+  margin: auto;
+}
+
 @media only screen and (max-width: 1500px) {
   .my-width-control {
     width: 1400px;
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  .intro-text-section {
+    background-size: 1500px auto;
+  }
+
+  .development-image-section {
+    background-size: 1500px 100%;
   }
 
   .welc-text-container {
@@ -985,7 +1134,8 @@ form {
   }
 
   .development-image-section {
-    /* height: 360px; */
+    background-size: 100% 100%;
+    /* background-size: 1500px 100%; */
   }
 
   #mob-welc-img {
