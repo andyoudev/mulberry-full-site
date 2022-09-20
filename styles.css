@@ -31,6 +31,11 @@ button {
   font-weight: 600;
 }
 
+button:hover {
+  color: #FFE9A0;
+  border-color: #FFE9A0;
+}
+
 .my-width-control {
   width: 1500px;
   padding-left: 2%;
@@ -42,6 +47,10 @@ button {
   /* color: #F3F1E6; */
   letter-spacing: 2px;
   font-weight: 700;
+}
+
+.black-p {
+  color: black;
 }
 
 .p-big-italic-heading {
@@ -290,9 +299,10 @@ button {
   width: 100%;
   height: 670px;
   background-image: url("images/area-hero-img.jpg");
-  background-position: center top;
+  background-position: center bottom;
   background-size: 100% auto;
   margin-top: -70px;
+  margin-bottom: -50px;
   padding: 0;
   overflow: hidden;
 }
@@ -316,6 +326,14 @@ button {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
   color: #4782A6;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.p1-intro-light {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: #F3F1E6;
   font-size: 3rem;
   letter-spacing: 2px;
 }
@@ -469,13 +487,15 @@ button {
   margin-bottom: 3%;
 }
 
-
+#arial-view-img {
+  display: none;
+}
 
 .location-text-section {
   width: 100%;
   height: 600px;
   background-image: url("images/canada-water-masterplan-img.jpg");
-  background-position: 200px -200px;
+  background-position: 200px bottom;
   background-size: 100% auto;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -530,12 +550,14 @@ button {
 .transport-intro-section {
   color: #4782A6;
   /* height: 500px; */
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .transp-intro-text-container {
   text-align: left;
   width: 90%;
-  height: 550px;
+  /* height: 400px; */
   padding-top: 65px;
   margin: auto;
 }
@@ -559,7 +581,7 @@ button {
   color: #4782A6;
   text-align: left;
   /* padding: 4% 0 4% 0; */
-  padding: 0;
+  padding-top: 0;
 }
 
 .transp-icon {
@@ -567,10 +589,23 @@ button {
   margin-bottom: 2%;
 }
 
+.transp-icon-bike {
+  width: 80px;
+  margin-top: 5px;
+  margin-bottom: 2%;
+}
+
+.transp-icon-walk {
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 2%;
+}
+
 
 
 .transp-times-underline-div {
-  width: 370px;
+  width: 400px;
+  color: black;
   /* border-bottom-style: solid;
   border-color: #1f4468;
   border-width: 2px; */
@@ -579,7 +614,7 @@ button {
 
 .tr-ti-spacer-width {
   display: inline-block;
-  width: 260px;
+  width: 300px;
 }
 
 .tr-ti-align-right {
@@ -612,6 +647,7 @@ button {
   color: #F3F1E6;
   background-color: #4782A6;
   padding: 20px 0 20px 0;
+  margin-bottom: 70px;
 }
 
 .top-btm-boarder {
@@ -631,6 +667,17 @@ button {
 
 .brochure-text-container {
   width: 80%;
+  padding-top: 150px;
+  margin: auto;
+}
+
+.brochure-cover-container {
+  width: 300px;
+  margin: auto;
+}
+
+.brochure-cover-img {
+  width: 300px;
   margin: auto;
 }
 
@@ -668,7 +715,7 @@ button {
 .wandle-text-section {
   width: 100%;
   height: 1100px;
-  background-image: url("images/couple-in-new-home-web.png");
+  background-image: url("images/couple-in-new-home-web.jpg");
   background-position: right top;
   background-size: 2110px auto;
 
@@ -781,7 +828,7 @@ button {
 
 .dev-welc-text-container {
   /* text-align: left; */
-  width: 60%;
+  width: 70%;
   padding-top: 0;
   padding-left: 10px;
   margin: auto;
@@ -790,6 +837,7 @@ button {
 .img-slider-section-devel {
   color: #4782A6;
   background-color: #F3F1E6;
+  padding: 0;
 }
 
 .my-slider-container {
@@ -814,24 +862,84 @@ button {
 
 /* Area Page */
 
+.area-development-image-section {
+  color: #F3F1E6;
+  /* height: 550px; */
+  background-image: url("images/mul-water-bg-img-3.png");
+  background-position: center top;
+  background-size: 100% 100%;
+  padding-top: 90px;
+  padding-bottom: 140px;
+}
 
+.area-intro-img-container {
+  width: 95%;
+  height: 600px;
+  background-image: url("images/area-intro-img.jpg");
+  background-position: center bottom;
+  background-size: 622px 622px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin: -150px auto 0 10px;
+}
+
+.area-intro-text-container {
+  text-align: left;
+  color: black;
+  width: 90%;
+  /* height: 550px; */
+  padding-top: 0;
+  margin: auto;
+}
+
+.area-section-three {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sec-3-img1 {
+  background-image: url("images/area-sec-3-img1.jpg");
+}
+
+.sec-3-img2 {
+  background-image: url("images/area-sec-3-img2.jpg");
+}
+
+.sec-3-img3 {
+  background-image: url("images/area-sec-3-img3.jpg");
+}
+
+.area-sec-3-img-container {
+  width: 400px;
+  height: 400px;
+  background-position: center bottom;
+  background-size: 420px 420px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+#area-img-replacer {
+  display: none;
+}
 
 /* Availability Page */
 .avail-btn-inline-div {
   display: inline-block;
-  width: 150px;
-  margin: 0 20px 0 20px;
+  width: 120px;
+  margin: 0 5px 0 5px;
 }
 
 .avail-btn {
   /* width: 300px; */
+  min-width: 100px;
   background-color: transparent;
   border-color: #4782A6;
   border-style: solid;
   border-width: 2px;
   color: #4782A6;
   letter-spacing: 1px;
-  margin: 0 2% 0 0;
+  margin: 0 10px 0 0;
   padding: 2% 10% 2% 10%;
 }
 
@@ -850,7 +958,7 @@ button {
 .aprt-hlights-container {
   width: 90%;
   background-color: #4782A6;
-  padding: 10px;
+  padding: 20px;
   margin: auto;
 }
 
@@ -859,18 +967,22 @@ button {
   margin-top: 10px;
 }
 
+.aprt-price-h1 {
+  font-weight: 700;
+}
+
 .sub-details-container {
   text-align: left;
   padding: 10px 0 10px 0;
 }
 
-#two-bed-avail {
+/* #two-bed-avail {
   display: none;
 }
 
 #three-bed-avail {
   display: none;
-}
+} */
 
 .avail-discl-section {
   color: #4782A6;
@@ -905,9 +1017,25 @@ button {
   text-align: left;
 }
 
+.apart-underline-div {
+  width: 280px;
+  color: black;
+  /* border-bottom-style: solid;
+  border-color: #1f4468;
+  border-width: 2px; */
+  margin-bottom: 10px;
+}
+
+.underl {
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding-bottom: 5px;
+}
+
 .apart-spacer-width {
   display: inline-block;
-  width: 170px;
+  width: 220px;
 }
 
 .apart-deets-table-container {
@@ -944,6 +1072,18 @@ button {
     padding-right: 2%;
   }
 
+  .dev-landing-page-section {
+    width: 100%;
+    height: 670px;
+    background-size: 1500px auto;
+  }
+
+  .area-landing-page-section {
+    width: 100%;
+    height: 670px;
+    background-size: 1500px auto;
+  }
+
   .intro-text-section {
     background-size: 1500px auto;
   }
@@ -957,13 +1097,19 @@ button {
   }
 
   .location-text-section {
+    background-position: center bottom;
+    /* background-size: 1155 650; */
     background-size: 1510px 800px;
   }
 
   /* keep fade size dynamic */
 
-  .transp-intro-text-container {
+  .transp-spacer {
     padding-top: 45px;
+  }
+
+  .transp-intro-text-container {
+    /* padding-top: 45px; */
   }
 
 }
@@ -980,21 +1126,31 @@ button {
   }
 
   .welc-img-container {
-    height: 370px;
-    background-size: 575px 370px;
+    height: 412px;
+    background-size: 640px 412px;
+  }
+
+  .area-sec-3-img-container {
+    width: 350px;
+    height: 350px;
+    background-size: 380px 380px;
   }
 
   .hlight-text-container {
-    padding-top: 15px;
+    padding-top: 0;
   }
 
   .coffee-img-container {
-    height: 350px;
-    background-size: 544px 350px;
+    height: 377px;
+    background-size: 585px 377px;
+  }
+
+  .transp-spacer {
+    padding-top: 15px;
   }
 
   .transp-intro-text-container {
-    padding-top: 15px;
+    /* padding-top: 15px; */
   }
 
   .can-wat-tube-img-container {
@@ -1053,6 +1209,29 @@ button {
     display: initial;
   }
 
+  .tab-register-btn {
+    /* display: inline-block; */
+    width: 210px;
+    background-color: transparent;
+    border-color: #F3F1E6;
+    border-style: solid;
+    border-width: 2px;
+    color: #F3F1E6;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin: 2px 0 0 0;
+    padding: 0.5% 1% 0.5% 1%;
+  }
+
+  .align-reg-btn {
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    width: 300px;
+    right: 120px;
+    /* margin-top: -3px; */
+  }
+
   .nav-socials-container {
     display: inline;
     text-align: center;
@@ -1073,13 +1252,13 @@ button {
   }
 
   .welc-img-container {
-    height: 330px;
-    background-size: 513px 330px;
+    height: 370px;
+    background-size: 575px 370px;
   }
 
   .coffee-img-container {
-    height: 330px;
-    background-size: 513px 330px;
+    height: 351px;
+    background-size: 545px 351px;
   }
 
   .development-image-section {
@@ -1102,8 +1281,18 @@ button {
     width: 22px;
   }
 
-  .transp-intro-text-container {
+  .area-sec-3-img-container {
+    width: 270px;
+    height: 270px;
+    background-size: 300px 300px;
+  }
+
+  .transp-spacer {
     padding-top: 15px;
+  }
+
+  .transp-intro-text-container {
+    /* padding-top: 15px; */
   }
 
   .can-wat-tube-img-container {
@@ -1147,6 +1336,7 @@ button {
 
   .wand-sticky-top-bar {
     text-align: center;
+    padding-right: 10px;
   }
 
   #tablet-reg-nav-btn {
@@ -1186,11 +1376,41 @@ button {
 
   #mob-loc-img {
     display: initial;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
   }
 
   #loc-img-col {
     display: none;
+  }
+
+  #dev-deets-col-spacer {
+    margin-top: 50px;
+  }
+
+  .area-intro-text-container {
+    padding-top: 70px;
+  }
+
+  #area-3-sq-imgs {
+    display: none;
+  }
+
+  #area-img-replacer {
+    display: initial;
+  }
+
+  .sec-3-img2 {
+    background-image: url("images/area-sec-3-img2.jpg");
+  }
+
+  .area-sec-3-img-container {
+    width: 630px;
+    height: 400px;
+    background-position: center top;
+    background-size: 630px 630px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: auto;
   }
 
   /* #mul-coffee-img {
@@ -1210,17 +1430,48 @@ button {
     /* background-image: url("images/mul-stamp-logo.png");
     background-position: 85% 15%;
     background-size: 140px 140px; */
-    padding: 0 0 0 60px;
+    padding: 0 0 0 0;
     /* padding: 2% 0 3% 10%; */
+  }
+
+  #arial-view-img {
+    display: initial;
+    width: 100%;
+  }
+
+  .location-text-section {
+    /* width: 100%; */
+    height: auto;
+    background-image: none;
+  }
+
+  .can-water-se16-text-container {
+    width: 100%;
+    /* padding: 0; */
+  }
+
+  .section-w-bg-image-fade {
+    height: auto;
+    background-size: 100% auto;
+  }
+
+  .loc-desc-box-bg-inside {
+    width: 95%;
+    height: auto;
+    padding: 70px 0 70px 0;
   }
 
   #avail-for-text {
     display: initial;
   }
 
+  .transp-spacer {
+    padding-top: 0;
+  }
 
   .transport-intro-section {
     /* height: 850px; */
+    padding-bottom: 70px;
   }
 
   .transp-intro-text-container {
@@ -1229,7 +1480,15 @@ button {
   }
 
   #rail-trans-times {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+  }
+
+  .transp-icon-bike {
+    margin-top: 0;
+  }
+
+  .transp-icon-walk {
+    margin-top: 0;
   }
 
   .can-wat-tube-img-container {
@@ -1238,6 +1497,16 @@ button {
     background-size: 800px auto;
     margin-top: 70px;
     /* padding: 3% 0 3% 0; */
+  }
+
+  .view-brochure-section {
+    padding-top: 0;
+  }
+
+  .brochure-text-container {
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 70px;
   }
 
   /* .wandle-text-section {
@@ -1268,8 +1537,26 @@ button {
     padding-right: 1%;
   }
 
+  .navbar-collapse {
+    width: 105%;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -105%;
+  }
+
   .landing-page-section {
     height: 530px;
+  }
+
+  .dev-landing-page-section {
+    height: 530px;
+    background-size: 1000px auto;
+  }
+
+  .area-landing-page-section {
+    height: 530px;
+    background-size: 1050px auto;
   }
 
   .p-big-italic-heading {
@@ -1288,12 +1575,37 @@ button {
     font-size: 2.3rem;
   }
 
+  .area-intro-img-container {
+    /* width: 95%; */
+    height: 500px;
+    background-size: 580px 580px;
+    /* margin: -150px auto 0 10px; */
+  }
+
+  .area-sec-3-img-container {
+    width: 580px;
+    height: 400px;
+    background-position: center top;
+    background-size: 580px 580px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+
   .development-image-section {
     /* height: 400px; */
   }
 
+  .dev-welc-text-container {
+    /* text-align: left; */
+    width: 90%;
+    padding-top: 0;
+    padding-left: 0;
+    margin: auto;
+  }
+
   .highlight-details-section {
-    padding-top: 40px;
+    /* padding-top: 40px; */
   }
 
   .hlight-text-container {
@@ -1301,7 +1613,7 @@ button {
     /* background-image: none; */
     /* background-position: 85% 15%;
     background-size: 140px 140px; */
-    padding: 0 0 0 50px;
+    padding: 0 0 0 10px;
   }
 
   #avail-for-text {
@@ -1322,7 +1634,7 @@ button {
   }
 
   .loc-desc-box-bg-inside {
-    padding: 50px 60px 30px 50px;
+    padding: 70px 50px 70px 10px;
   }
 
   .transport-intro-section {
@@ -1338,8 +1650,17 @@ button {
     display: none;
   }
 
+/* .img-slider-section-devel my-width-control {
+  padding: 0;
+} */
+
+  .my-slider-container {
+    width: 100%;
+    margin: 0;
+  }
+
   .location-map-section {
-    padding-top: 0;
+    /* padding-top: 0; */
   }
 
   .goog-map-embed-iframe {
@@ -1354,7 +1675,16 @@ button {
     height: 1750px;
   }
 
+  .HIW-headings {
+    display: none;
+  }
+
+  .how-it-works-container {
+    display: none;
+  }
+
   .wandle-text-section {
+    height: 900px;
     background-position: -1350px top;
   }
 

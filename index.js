@@ -14,7 +14,24 @@ $(document).ready(function(){
 
 });
 
+$("#all-btn").click(function() {
+  $("#all-btn").toggleClass("avail-btn-active");
+  $("#one-bed-btn").removeClass("avail-btn-active");
+  $("#two-bed-btn").removeClass("avail-btn-active");
+  $("#three-bed-btn").removeClass("avail-btn-active");
+
+  $("#one-bed-avail").show();
+  $("#two-bed-avail").show();
+  $("#three-bed-avail").show();
+
+  document.getElementById("all-btn").disabled = true;
+  document.getElementById("one-bed-btn").disabled = false;
+  document.getElementById("two-bed-btn").disabled = false;
+  document.getElementById("three-bed-btn").disabled = false;
+});
+
 $("#one-bed-btn").click(function() {
+  $("#all-btn").removeClass("avail-btn-active");
   $("#one-bed-btn").toggleClass("avail-btn-active");
   $("#two-bed-btn").removeClass("avail-btn-active");
   $("#three-bed-btn").removeClass("avail-btn-active");
@@ -23,12 +40,14 @@ $("#one-bed-btn").click(function() {
   $("#two-bed-avail").hide();
   $("#three-bed-avail").hide();
 
+  document.getElementById("all-btn").disabled = false;
   document.getElementById("one-bed-btn").disabled = true;
   document.getElementById("two-bed-btn").disabled = false;
   document.getElementById("three-bed-btn").disabled = false;
 });
 
 $("#two-bed-btn").click(function() {
+  $("#all-btn").removeClass("avail-btn-active");
   $("#one-bed-btn").removeClass("avail-btn-active");
   $("#two-bed-btn").toggleClass("avail-btn-active");
   $("#three-bed-btn").removeClass("avail-btn-active");
@@ -37,12 +56,14 @@ $("#two-bed-btn").click(function() {
   $("#two-bed-avail").show();
   $("#three-bed-avail").hide();
 
+  document.getElementById("all-btn").disabled = false;
   document.getElementById("one-bed-btn").disabled = false;
   document.getElementById("two-bed-btn").disabled = true;
   document.getElementById("three-bed-btn").disabled = false;
 });
 
 $("#three-bed-btn").click(function() {
+  $("#all-btn").removeClass("avail-btn-active");
   $("#one-bed-btn").removeClass("avail-btn-active");
   $("#two-bed-btn").removeClass("avail-btn-active");
   $("#three-bed-btn").toggleClass("avail-btn-active");
@@ -51,6 +72,7 @@ $("#three-bed-btn").click(function() {
   $("#two-bed-avail").hide();
   $("#three-bed-avail").show();
 
+  document.getElementById("all-btn").disabled = false;
   document.getElementById("one-bed-btn").disabled = false;
   document.getElementById("two-bed-btn").disabled = false;
   document.getElementById("three-bed-btn").disabled = true;
