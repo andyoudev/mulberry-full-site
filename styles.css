@@ -924,15 +924,21 @@ button:hover {
 }
 
 /* Availability Page */
+
+.avail-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .avail-btn-inline-div {
   display: inline-block;
-  width: 120px;
+  width: 220px;
   margin: 0 5px 0 5px;
 }
 
 .avail-btn {
   /* width: 300px; */
-  min-width: 100px;
+  min-width: 200px;
   background-color: transparent;
   border-color: #4782A6;
   border-style: solid;
@@ -956,15 +962,25 @@ button:hover {
 }
 
 .aprt-hlights-container {
-  width: 90%;
+  display: inline-block;
+  /* width: 90%; */
+  width: 350px;
   background-color: #4782A6;
   padding: 20px;
-  margin: auto;
+  margin: 20px;
+}
+
+.avail-flrpln-img-container {
+  height: 400px;
+  background-color: white;
+  margin-top: 10px;
 }
 
 .avail-flrpln-img {
   width: 100%;
-  margin-top: 10px;
+  max-height: 380px;
+  /* background-color: white; */
+  padding: 20px;
 }
 
 .aprt-price-h1 {
@@ -999,8 +1015,68 @@ button:hover {
 }
 
 .apartment-iframe-container {
-  width: 70%;
+  width: 850px;
   margin: auto;
+}
+
+/* .cgi-display-section {
+
+} */
+
+.mob-view-flrplan-section {
+  display: none;
+}
+
+.mob-flrplan-img-container {
+  width: 100%;
+  max-width: 580px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mob-apart-deet-flr-img {
+  width: 100%;
+
+}
+
+.avail-btn-mob-height {
+  height: 110px;
+}
+
+.model-icon-img {
+  width: 55px;
+  margin-top: 8px;
+}
+
+.vr-tour-icon-img {
+  width: 80px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+
+.icon-avail-btn {
+  /* width: 300px; */
+  min-width: 200px;
+  background-color: transparent;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  color: #black;
+  letter-spacing: 1px;
+  margin: 0 10px 0 0;
+  padding: 2% 10% 2% 10%;
+}
+
+.icon-avail-btn:hover {
+  background-color: #cddee8;
+  border-color: #F3F1E6;
+  color: #F3F1E6;
 }
 
 .apart-details-section {
@@ -1018,7 +1094,7 @@ button:hover {
 }
 
 .apart-underline-div {
-  width: 280px;
+  width: 410px;
   color: black;
   /* border-bottom-style: solid;
   border-color: #1f4468;
@@ -1035,7 +1111,12 @@ button:hover {
 
 .apart-spacer-width {
   display: inline-block;
-  width: 220px;
+  width: 100px;
+}
+
+.apart-spacer-width-m {
+  display: inline-block;
+  width: 200px;
 }
 
 .apart-deets-table-container {
@@ -1509,9 +1590,37 @@ button:hover {
     margin-bottom: 70px;
   }
 
-  /* .wandle-text-section {
-    background-size: 2110px auto;
-  } */
+  /* Apartment Pages */
+
+  .cgi-display-section {
+    display: none;
+  }
+
+  .mob-view-flrplan-section {
+    /* width: 90%;
+    max-width: 560px; */
+    display: initial;
+  }
+
+  .apart-details-section {
+    padding-top: 50px;
+  }
+
+  .apart-deets-list-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .apart-deets-table-container {
+    width: 410px;
+    margin: auto;
+  }
+
+  .apart-disclaimer-div {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
 
 }
 

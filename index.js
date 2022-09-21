@@ -20,9 +20,13 @@ $("#all-btn").click(function() {
   $("#two-bed-btn").removeClass("avail-btn-active");
   $("#three-bed-btn").removeClass("avail-btn-active");
 
-  $("#one-bed-avail").show();
-  $("#two-bed-avail").show();
-  $("#three-bed-avail").show();
+  // $("#one-bed-avail").show();
+  // $("#two-bed-avail").show();
+  // $("#three-bed-avail").show();
+
+  $(".one-bed").show();
+  $(".two-bed").show();
+  $(".three-bed").show();
 
   document.getElementById("all-btn").disabled = true;
   document.getElementById("one-bed-btn").disabled = false;
@@ -36,9 +40,13 @@ $("#one-bed-btn").click(function() {
   $("#two-bed-btn").removeClass("avail-btn-active");
   $("#three-bed-btn").removeClass("avail-btn-active");
 
-  $("#one-bed-avail").show();
-  $("#two-bed-avail").hide();
-  $("#three-bed-avail").hide();
+  // $("#one-bed-avail").show();
+  // $("#two-bed-avail").hide();
+  // $("#three-bed-avail").hide();
+
+  $(".one-bed").show();
+  $(".two-bed").hide();
+  $(".three-bed").hide();
 
   document.getElementById("all-btn").disabled = false;
   document.getElementById("one-bed-btn").disabled = true;
@@ -52,9 +60,13 @@ $("#two-bed-btn").click(function() {
   $("#two-bed-btn").toggleClass("avail-btn-active");
   $("#three-bed-btn").removeClass("avail-btn-active");
 
-  $("#one-bed-avail").hide();
-  $("#two-bed-avail").show();
-  $("#three-bed-avail").hide();
+  // $("#one-bed-avail").hide();
+  // $("#two-bed-avail").show();
+  // $("#three-bed-avail").hide();
+
+  $(".one-bed").hide();
+  $(".two-bed").show();
+  $(".three-bed").hide();
 
   document.getElementById("all-btn").disabled = false;
   document.getElementById("one-bed-btn").disabled = false;
@@ -68,9 +80,13 @@ $("#three-bed-btn").click(function() {
   $("#two-bed-btn").removeClass("avail-btn-active");
   $("#three-bed-btn").toggleClass("avail-btn-active");
 
-  $("#one-bed-avail").hide();
-  $("#two-bed-avail").hide();
-  $("#three-bed-avail").show();
+  // $("#one-bed-avail").hide();
+  // $("#two-bed-avail").hide();
+  // $("#three-bed-avail").show();
+
+  $(".one-bed").hide();
+  $(".two-bed").hide();
+  $(".three-bed").show();
 
   document.getElementById("all-btn").disabled = false;
   document.getElementById("one-bed-btn").disabled = false;
