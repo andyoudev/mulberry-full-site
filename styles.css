@@ -70,6 +70,7 @@ button:hover {
 
 .my-bold {
   font-weight: bold;
+  color: #4782A6;
 }
 
 .my-ital {
@@ -1067,8 +1068,12 @@ button:hover {
   display: none;
 }
 
-.mob-flrplan-img-container {
+.mob-view-cgi-nav-btns-container {
   width: 100%;
+}
+
+.mob-flrplan-img-container {
+  width: 90%;
   max-width: 580px;
   background-color: white;
   border-color: black;
@@ -1077,7 +1082,7 @@ button:hover {
   margin: auto;
   padding: 20px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .mob-apart-deet-flr-img {
@@ -1102,14 +1107,14 @@ button:hover {
 
 .icon-avail-btn {
   /* width: 300px; */
-  min-width: 200px;
+  min-width: 170px;
   background-color: transparent;
   border-color: black;
   border-style: solid;
   border-width: 2px;
   color: #black;
   letter-spacing: 1px;
-  margin: 0 10px 0 0;
+  margin: 10px auto 0 auto;
   padding: 2% 10% 2% 10%;
 }
 
@@ -1125,8 +1130,12 @@ button:hover {
 }
 
 .all-apart-deets-container {
-  width: 70%;
+  width: 90%;
   margin: 70px auto 70px auto;
+}
+
+.all-apart-deets-container div b {
+  color: #4782A6;
 }
 
 .apart-deets-list-container {
@@ -1134,7 +1143,7 @@ button:hover {
 }
 
 .apart-underline-div {
-  width: 410px;
+  width: 340px;
   color: black;
   /* border-bottom-style: solid;
   border-color: #1f4468;
@@ -1151,16 +1160,18 @@ button:hover {
 
 .apart-spacer-width {
   display: inline-block;
-  width: 100px;
+  width: 80px;
 }
 
 .apart-spacer-width-m {
   display: inline-block;
-  width: 200px;
+  width: 160px;
 }
 
 .apart-deets-table-container {
+  /* width: 90%; */
   text-align: left;
+  /* margin: auto; */
 }
 
 .apart-deets-item {
@@ -1513,8 +1524,25 @@ button:hover {
     margin-top: 50px;
   }
 
+  .area-intro-img-container {
+    width: 95%;
+    height: 600px;
+    background-image: url("images/area-intro-img.jpg");
+    background-position: center bottom;
+    background-size: 622px 622px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: -70px auto 0 auto;
+  }
+
   .area-intro-text-container {
-    padding-top: 70px;
+    width: 80%;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+  }
+
+  .area-section-two {
+    display: none;
   }
 
   #area-3-sq-imgs {
@@ -1532,13 +1560,13 @@ button:hover {
   }
 
   .area-sec-3-img-container {
-    width: 650px;
+    width: 95%;
     height: 400px;
     background-position: center top;
     background-size: 650px 650px;
     overflow: hidden;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 50px auto 0 auto;
   }
 
   /* #mul-coffee-img {
@@ -1659,12 +1687,12 @@ button:hover {
   }
 
   .apart-deets-table-container {
-    width: 410px;
+    width: 340px;
     margin: auto;
   }
 
   .apart-disclaimer-div {
-    width: 90%;
+    width: 80%;
     max-width: 500px;
     text-align: center;
   }
@@ -1746,7 +1774,13 @@ button:hover {
     /* width: 95%; */
     height: 500px;
     background-size: 580px 580px;
-    margin: -150px auto 0 auto;
+    margin: -70px auto 0 auto;
+  }
+
+  .area-intro-text-container {
+    width: 80%;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .area-sec-3-img-container {
@@ -1756,7 +1790,7 @@ button:hover {
     background-size: 580px 580px;
     overflow: hidden;
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 50px auto 0 auto;
   }
 
   .selector-btns-section {
