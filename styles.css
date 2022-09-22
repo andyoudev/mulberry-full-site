@@ -10,6 +10,8 @@ body {
 }
 
 section {
+  /* blocks nav bar slide in */
+  /* overflow: hidden; */
   padding: 70px 0 70px 0;
 }
 
@@ -100,6 +102,12 @@ button:hover {
   padding: 0.5% 5% 0.5% 5%;
 }
 
+.link-btn-colour-outline:hover {
+  background-color: #4782A6;
+  border-color: #4782A6;
+  color: #F3F1E6;
+}
+
 .link-btn-solid-dark {
   background-color: #4782A6;
   border-color: #4782A6;
@@ -120,6 +128,7 @@ button:hover {
   width: 100%;
 } */
 .banner {
+  width: 100%;
   position: -webkit-sticky;
   /* Safari */
   position: sticky;
@@ -193,21 +202,21 @@ button:hover {
   margin-top: -3px;
 }
 
-.align-toggler-btn-right {
+/* .align-toggler-btn-right {
   position: absolute;
   text-align: right;
   right: -40px;
   margin-top: 40px;
-}
+} */
 
-.align-btn-right {
+/* .align-btn-right {
   position: absolute;
   display: inline-block;
   text-align: right;
   width: 300px;
   right: 40px;
   margin-top: 18px;
-}
+} */
 
 .navbar-toggler {
   position: absolute;
@@ -364,8 +373,10 @@ button:hover {
   /* height: 550px; */
   background-image: url("images/mul-water-bg-img-3.png");
   background-position: center top;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   padding-top: 90px;
+  overflow: hidden;
+
 }
 
 #mob-welc-img {
@@ -417,6 +428,7 @@ button:hover {
   /* height: 400px; */
   /* padding-bottom: 0; */
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .coffee-img-container {
@@ -552,6 +564,7 @@ button:hover {
   /* height: 500px; */
   padding-top: 0;
   padding-bottom: 0;
+  overflow: hidden;
 }
 
 .transp-intro-text-container {
@@ -582,6 +595,7 @@ button:hover {
   text-align: left;
   /* padding: 4% 0 4% 0; */
   padding-top: 0;
+  overflow: hidden;
 }
 
 .transp-icon {
@@ -659,16 +673,23 @@ button:hover {
   padding: 20px 0 20px 0;
 }
 
+.DMO-text-container {
+  width: 90%;
+  margin: auto;
+}
+
 .view-brochure-section {
   text-align: left;
   color: #4782A6;
   background-color: #F3F1E6;
+  overflow: hidden;
+  padding-top: 0;
 }
 
 .brochure-text-container {
-  width: 80%;
+  width: 90%;
   padding-top: 150px;
-  margin: auto;
+  margin: 0 auto 0 20%;
 }
 
 .brochure-cover-container {
@@ -848,6 +869,7 @@ button:hover {
 .devel-details-section {
   color: #4782A6;
   background-color: #F3F1E6;
+  overflow: hidden;
 }
 
 .devel-details-col-container {
@@ -870,6 +892,7 @@ button:hover {
   background-size: 100% 100%;
   padding-top: 90px;
   padding-bottom: 140px;
+  overflow: hidden;
 }
 
 .area-intro-img-container {
@@ -890,11 +913,23 @@ button:hover {
   /* height: 550px; */
   padding-top: 0;
   margin: auto;
+  overflow: hidden;
+}
+
+.area-two-row {
+  max-width: 100%;
+}
+
+.area-section-two {
+  max-width: 99%;
+
+  /* overflow-y: hidden; */
 }
 
 .area-section-three {
   padding-top: 0;
   padding-bottom: 0;
+  overflow: hidden;
 }
 
 .sec-3-img1 {
@@ -921,9 +956,14 @@ button:hover {
 
 #area-img-replacer {
   display: none;
+  overflow: hidden;
 }
 
 /* Availability Page */
+
+.selector-btns-section {
+  padding-bottom: 20px;
+}
 
 .avail-section {
   padding-top: 0;
@@ -945,19 +985,19 @@ button:hover {
   border-width: 2px;
   color: #4782A6;
   letter-spacing: 1px;
-  margin: 0 10px 0 0;
+  margin: 0 10px 10px 0;
   padding: 2% 10% 2% 10%;
 }
 
 .avail-btn:hover {
   background-color: #4782A6;
-  border-color: #F3F1E6;
+  border-color: #4782A6;
   color: #F3F1E6;
 }
 
 .avail-btn-active {
   background-color: #4782A6;
-  border-color: #F3F1E6;
+  border-color: #4782A6;
   color: #F3F1E6;
 }
 
@@ -1428,11 +1468,16 @@ button:hover {
     display: none;
   }
 
-  .align-btn-right {
+  .brochure-text-container {
+    /* padding-top: 150px; */
+    margin: 0 auto 0 auto;
+  }
+
+  /* .align-btn-right {
     position: inherit;
     text-align: center;
     width: 300px;
-  }
+  } */
 
   .development-image-section {
     background-size: 100% 100%;
@@ -1478,6 +1523,8 @@ button:hover {
 
   #area-img-replacer {
     display: initial;
+    /* padding: 0;
+    margin: 0; */
   }
 
   .sec-3-img2 {
@@ -1485,10 +1532,10 @@ button:hover {
   }
 
   .area-sec-3-img-container {
-    width: 630px;
+    width: 650px;
     height: 400px;
     background-position: center top;
-    background-size: 630px 630px;
+    background-size: 650px 650px;
     overflow: hidden;
     background-repeat: no-repeat;
     margin: auto;
@@ -1647,11 +1694,11 @@ button:hover {
   }
 
   .navbar-collapse {
-    width: 105%;
+    width: 102%;
   }
 
   .navbar-collapse.collapsing {
-    left: -105%;
+    left: -102%;
   }
 
   .landing-page-section {
@@ -1661,6 +1708,7 @@ button:hover {
   .dev-landing-page-section {
     height: 530px;
     background-size: 1000px auto;
+    background-position: right bottom;
   }
 
   .area-landing-page-section {
@@ -1680,7 +1728,17 @@ button:hover {
     margin-top: 20%;
   } */
 
+  .intro-text-section {
+    height: 250px;
+    /* margin-bottom: -20px;
+    padding: 40px 0 30px 0; */
+  }
+
   .p1-intro {
+    font-size: 2.3rem;
+  }
+
+  .p1-intro-light {
     font-size: 2.3rem;
   }
 
@@ -1688,17 +1746,21 @@ button:hover {
     /* width: 95%; */
     height: 500px;
     background-size: 580px 580px;
-    /* margin: -150px auto 0 10px; */
+    margin: -150px auto 0 auto;
   }
 
   .area-sec-3-img-container {
-    width: 580px;
+    width: 100%;
     height: 400px;
     background-position: center top;
     background-size: 580px 580px;
     overflow: hidden;
     background-repeat: no-repeat;
     margin: auto;
+  }
+
+  .selector-btns-section {
+    padding-top: 0;
   }
 
   .development-image-section {
