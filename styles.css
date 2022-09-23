@@ -1055,6 +1055,10 @@ button:hover {
   padding: 40px 0 30px 0;
 }
 
+.cgi-display-section {
+  padding-top: 0;
+}
+
 .apartment-iframe-container {
   width: 850px;
   margin: auto;
@@ -1130,7 +1134,7 @@ button:hover {
 }
 
 .all-apart-deets-container {
-  width: 90%;
+  width: 70%;
   margin: 70px auto 70px auto;
 }
 
@@ -1477,6 +1481,10 @@ button:hover {
 
   #mul-reg-title {
     display: none;
+  }
+
+  .title-div {
+    width: 100px;
   }
 
   .brochure-text-container {
