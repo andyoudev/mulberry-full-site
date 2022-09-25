@@ -1129,7 +1129,7 @@ button {
 }
 
 .avail-btn-mob-height {
-  height: 120px;
+  height: 220px;
 }
 
 .model-icon-img {
@@ -1145,7 +1145,7 @@ button {
 
 .icon-avail-btn {
   /* width: 300px; */
-  min-width: 180px;
+  min-width: 280px;
   background-color:  #cddee8;
   border-color: black;
   border-style: solid;
