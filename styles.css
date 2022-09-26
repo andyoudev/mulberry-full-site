@@ -1182,7 +1182,7 @@ button {
 }
 
 .apart-underline-div {
-  width: 330px;
+  width: 335px;
   color: black;
   /* border-bottom-style: solid;
   border-color: #1f4468;
@@ -1204,7 +1204,7 @@ button {
 
 .apart-spacer-width-m {
   display: inline-block;
-  width: 135px;
+  width: 145px;
 }
 
 .apart-deets-table-container {
@@ -1792,6 +1792,7 @@ button {
 
   .navbar-collapse {
     width: 102%;
+    padding: 2% 2% 70% 2%;
   }
 
   .navbar-collapse.collapsing {
