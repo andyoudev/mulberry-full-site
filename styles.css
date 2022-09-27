@@ -63,7 +63,7 @@ button {
 }
 
 .call-to-action-h1 {
-  width: 90%;
+  width: 100%;
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0 auto 20px auto;
@@ -187,6 +187,13 @@ button {
   color: #FFE9A0;
 }
 
+.nav-brand-img {
+  position: absolute;
+  display: inline-block;
+  left: 40px;
+  margin-top: 16px;
+}
+
 .title-div {
   position: absolute;
   display: inline-block;
@@ -196,7 +203,7 @@ button {
   /* border-color: white;
   border-style: solid;
   border-width: 2px; */
-  left: 40px;
+  left: 190px;
   margin: 22px 0 0 0;
   /* padding: 0 0 0 0; */
   /* z-index: 5; */
@@ -303,11 +310,13 @@ button {
 }
 
 .landing-page-section {
-  width: 100%;
+  width: 1500px;
+  /* width: 100%; */
   height: 670px;
   background-image: url("images/landing-graphic-img.jpg");
   background-position: center bottom;
-  background-size: 100% auto;
+  background-size: 1500px 1934px;
+  background-repeat: no-repeat;
   margin-top: -70px;
   padding: 0;
   overflow: hidden;
@@ -707,7 +716,8 @@ button {
 }
 
 .brochure-text-container {
-  width: 90%;
+  width: 80%;
+  text-align: left;
   padding-top: 150px;
   margin: 0 auto 0 20%;
 }
@@ -1244,6 +1254,10 @@ button {
     padding-right: 2%;
   }
 
+  .landing-page-section {
+    width: 100%;
+  }
+
   .dev-landing-page-section {
     width: 100%;
     height: 670px;
@@ -1291,6 +1305,11 @@ button {
     width: 1200px;
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  .landing-page-section {
+    /* height: 670px; */
+    background-size: 1400px 1805px;
   }
 
   .welc-text-container {
@@ -1425,6 +1444,11 @@ button {
     font-size: 2.2rem;
   }
 
+  .landing-page-section {
+    /* height: 670px; */
+    background-size: 1200px 1547px;
+  }
+
   .welc-text-container {
     padding-top: 10px;
   }
@@ -1529,6 +1553,11 @@ button {
     width: 100px;
   }
 
+  .landing-page-section {
+    /* height: 670px; */
+    background-size: 992px 1279px;
+  }
+
   .brochure-text-container {
     /* padding-top: 150px; */
     margin: 0 auto 0 auto;
@@ -1578,7 +1607,7 @@ button {
     /* text-align: left; */
     width: 80%;
     padding-top: 0;
-    /* padding-left: 10px; */
+    padding-left: 10px;
     margin: auto;
   }
 
@@ -1801,6 +1830,7 @@ button {
 
   .landing-page-section {
     height: 530px;
+    background-size: 580px 748px;
   }
 
   .dev-landing-page-section {
