@@ -318,6 +318,7 @@ button {
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -70px;
+  margin-bottom: -30px;
   padding: 0;
   overflow: hidden;
 }
@@ -357,6 +358,50 @@ button {
   color: #4782A6;
   margin-bottom: -20px;
   padding: 40px 0 30px 0;
+}
+
+.landing-heading-container {
+  margin-top: 100px;
+}
+
+.landing-text-light1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #F3F1E6;
+}
+
+.landing-text-light2 {
+  color: #F3F1E6;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.avail-now-container {
+  position: relative;
+  width: 400px;
+  /* height: 250px; */
+  background-color: #4782A6;
+  border-color: #F3F1E6;
+  border-style: solid;
+  border-width: 2px;
+  padding: 25px;
+  margin: 170px auto 0 auto;
+  z-index: 3;
+}
+
+.avail-now-heading {
+  font-size: 2.7rem;
+}
+
+.avail-now-line2 {
+  font-size: 1.8rem;
+}
+
+.avail-now-price {
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .p1-intro {
@@ -405,7 +450,7 @@ button {
   background-size: 100% auto;
   padding-top: 90px;
   overflow: hidden;
-
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 }
 
 #mob-welc-img {
