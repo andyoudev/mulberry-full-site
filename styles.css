@@ -318,7 +318,7 @@ button {
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -70px;
-  margin-bottom: -30px;
+  margin-bottom: -42px;
   padding: 0;
   overflow: hidden;
 }
@@ -385,23 +385,27 @@ button {
   background-color: #4782A6;
   border-color: #F3F1E6;
   border-style: solid;
-  border-width: 2px;
-  padding: 25px;
-  margin: 170px auto 0 auto;
+  border-width: 3px;
+  padding: 10px 20px 10px 20px;
+  margin: 260px auto 0 auto;
   z-index: 3;
 }
 
 .avail-now-heading {
-  font-size: 2.7rem;
+  font-size: 2.6rem;
+  font-weight: 600;
 }
 
 .avail-now-line2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: -10px;
 }
 
 .avail-now-price {
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: -10px;
 }
 
 .p1-intro {
@@ -450,7 +454,6 @@ button {
   background-size: 100% auto;
   padding-top: 90px;
   overflow: hidden;
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 }
 
 #mob-welc-img {
@@ -1292,6 +1295,20 @@ button {
   font-size: 0.7rem;
 }
 
+@media only screen and (max-width: 1800px) {
+  .my-width-control {
+    width: 1500px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .landing-page-section {
+    width: 100%;
+    background-size: 1850px 700px;
+  }
+
+}
+
 @media only screen and (max-width: 1500px) {
   .my-width-control {
     width: 1400px;
@@ -1302,6 +1319,7 @@ button {
   .landing-page-section {
     width: 100%;
     background-size: 1850px 700px;
+    margin-bottom: -30px;
   }
 
   .dev-landing-page-section {
@@ -1901,6 +1919,44 @@ button {
     font-size: 1.8rem;
   }
 
+  .landing-heading-container {
+    margin-top: 80px;
+  }
+
+  .landing-text-light1 {
+    font-size: 2.7rem;
+  }
+
+  /* .landing-text-light2 {
+    color: #F3F1E6;
+    letter-spacing: 2px;
+    font-weight: 600;
+  } */
+
+  .avail-now-container {
+    width: 350px;
+    padding: 8px 16px 8px 16px;
+    margin: 190px auto 0 auto;
+  }
+
+  .avail-now-heading {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  .avail-now-line2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: -10px;
+  }
+
+  .avail-now-price {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: -10px;
+  }
+
+
   /* .logo-img-landing {
     width: 100%;
     max-width: 220px;
@@ -2078,6 +2134,13 @@ button {
     height: 400px;
     background-size: 437px 400px;
     background-repeat: no-repeat;
+  }
+
+  .avail-now-container {
+    width: 350px;
+    max-width: 90%;
+    padding: 8px 16px 8px 16px;
+    margin: 55px auto 0 auto;
   }
 }
 
