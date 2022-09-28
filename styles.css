@@ -378,6 +378,10 @@ button {
   font-weight: 600;
 }
 
+#avail-now-mob {
+  display: none;
+}
+
 .avail-now-container {
   position: relative;
   width: 400px;
@@ -1933,10 +1937,19 @@ button {
     font-weight: 600;
   } */
 
+  #avail-now-desk {
+    display: none;
+  }
+
+  #avail-now-mob {
+    display: initial;
+  }
+
   .avail-now-container {
-    width: 350px;
-    padding: 8px 16px 8px 16px;
-    margin: 190px auto 0 auto;
+    /* width: 100px; */
+    /* padding: 8px 16px 8px 16px; */
+    border: none;
+    margin: 0 auto 0 auto;
   }
 
   .avail-now-heading {
@@ -2131,17 +2144,17 @@ button {
   }
 
   .landing-page-section {
-    height: 400px;
-    background-size: 437px 400px;
+    height: 500px;
+    background-size: 580px 530px;
     background-repeat: no-repeat;
   }
 
-  .avail-now-container {
+  /* .avail-now-container {
     width: 350px;
     max-width: 90%;
     padding: 8px 16px 8px 16px;
-    margin: 55px auto 0 auto;
-  }
+    margin: 155px auto 0 auto;
+  } */
 }
 
 @media only screen and (max-width: 400px) {
