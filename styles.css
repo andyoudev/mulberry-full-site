@@ -310,12 +310,12 @@ button {
 }
 
 .landing-page-section {
-  width: 1500px;
-  /* width: 100%; */
+  /* width: 1500px; */
+  width: 100%;
   height: 670px;
-  background-image: url("images/landing-graphic-img.jpg");
+  background-image: url("images/landing-graphic-img-2.jpg");
   background-position: center bottom;
-  background-size: 1500px 1934px;
+  background-size: 1850px 700px;
   background-repeat: no-repeat;
   margin-top: -70px;
   padding: 0;
@@ -1309,7 +1309,7 @@ button {
 
   .landing-page-section {
     /* height: 670px; */
-    background-size: 1400px 1805px;
+    /* background-size: 1400px 1805px; */
   }
 
   .welc-text-container {
@@ -1446,7 +1446,7 @@ button {
 
   .landing-page-section {
     /* height: 670px; */
-    background-size: 1200px 1547px;
+    /* background-size: 1200px 1547px; */
   }
 
   .welc-text-container {
@@ -1556,6 +1556,8 @@ button {
   .landing-page-section {
     /* height: 670px; */
     background-size: 992px 1279px;
+    background-image: url("images/landing-graphic-img-2-mob.jpg");
+    background-size: 100% auto;
   }
 
   .brochure-text-container {
