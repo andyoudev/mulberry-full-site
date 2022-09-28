@@ -1555,9 +1555,10 @@ button {
 
   .landing-page-section {
     /* height: 670px; */
-    background-size: 992px 1279px;
-    background-image: url("images/landing-graphic-img-2-mob.jpg");
-    background-size: 100% auto;
+    /* background-size: 992px 1279px; */
+    background-image: url("images/landing-graphic-img-3-tab.jpg");
+    background-size: 1000px 670px;
+    /* background-position: center top; */
   }
 
   .brochure-text-container {
@@ -1832,7 +1833,9 @@ button {
 
   .landing-page-section {
     height: 530px;
-    background-size: 580px 748px;
+    background-image: url("images/landing-graphic-img-3-mob.jpg");
+    /* background-size: 100% auto; */
+    background-size: 580px 530px;
   }
 
   .dev-landing-page-section {
@@ -2027,6 +2030,7 @@ button {
 
   .landing-page-section {
     height: 400px;
+    background-size: 437px 400px;
     background-repeat: no-repeat;
   }
 }
