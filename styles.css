@@ -315,7 +315,7 @@ button {
   height: 670px;
   background-image: url("images/landing-graphic-img-2.jpg");
   background-position: center bottom;
-  background-size: 1850px 700px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   margin-top: -70px;
   padding: 0;
@@ -1256,6 +1256,7 @@ button {
 
   .landing-page-section {
     width: 100%;
+    background-size: 1850px 700px;
   }
 
   .dev-landing-page-section {
