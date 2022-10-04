@@ -10,12 +10,11 @@
 
   <!-- sharing meta tags -->
   <meta name="description" content="The Mulberry is a collection of brand new 1, 2 & 3 bedroom
-    Shared Ownership homes set in the lively heart of Canada
-    Water." />
-  <meta property="og:title" content="THE MULBERRY | Shared Ownership | Register Your Interest" />
+    Shared Ownership homes set in the lively heart of Canada Water, SE16." />
+  <meta property="og:title" content="THE MULBERRY | Shared Ownership | Available Now" />
   <meta property="og:url" content="https://www.themulberry-canadawater.com" />
-  <meta property="og:description" content="Shared ownership apartments for sale in Canada Water, London" />
-  <meta property="og:image" content="https://andyoudev.github.io/mulberry-reg-page/images/SharingPic.jpg" />
+  <meta property="og:description" content="Shared ownership apartments for sale in Canada Water, SE16, London" />
+  <meta property="og:image" content="https://www.themulberry-canadawater.com/images/SharingPic.jpg" />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="en_GB" />
 
@@ -42,16 +41,18 @@
   <!-- Then css sheet -->
   <link rel="stylesheet" href="styles.css">
 
-  <title>THE MULBERRY | Shared Ownership | Register Your Interest</title>
+  <title>THE MULBERRY | Shared Ownership | Available Now</title>
 </head>
 
 <body>
 
   <section class="banner" id="">
     <div class="wand-sticky-top-bar">
-
+      <div class="nav-brand-img">
+        <img class="wandle-logo-foot" src="images/wand-logo-sandweb.png" alt="wandle-logo-abt">
+      </div>
       <div id="mul-reg-title" class="title-div">
-        <h1 class="title-h1">SHARED OWNERSHIP | LAUNCHING SOON</h1>
+        <h1 class="title-h1">SHARED OWNERSHIP</h1>
       </div>
 
       <div class="container-fluid">
@@ -60,11 +61,16 @@
         <nav class="navbar navbar-expand-xl navbar-dark">
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMulberry">
+            <!-- <span class="my-nav-icon-close">X</span> -->
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- note the -bs addition which makes it work in the newer Bootstrap versions -->
 
           <div class="collapse navbar-collapse flex-row-reverse" id="navbarTogglerMulberry">
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMulberry">
+              <span class="">X</span>
+            </button> -->
 
             <ul class="navbar-nav ml-auto">
               <li id="WWD-menu-item" class="nav-item">
@@ -74,7 +80,7 @@
                 <a class="nav-link" aria-current="page" href="development.html"><span class="my-nav-color">DEVELOPMENT</span></a>
               </li>
               <li id="ODE-menu-item" class="nav-item">
-                <a class="nav-link" aria-current="page" href="location.html"><span class="my-nav-color">AREA</span></a>
+                <a class="nav-link" aria-current="page" href="location.html"><span class="my-nav-active-color">AREA</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="availability.html"><span class="my-nav-color">AVAILABILITY</span></a>
@@ -88,9 +94,9 @@
               <div class="nav-inner-socials-container">
                 <img class="wandle-logo-foot" src="images/wand-logo-sandweb.png" alt="wandle-logo-abt">
                 <div class="">
-                  <a class="nav-social-icon-a-link" href="#"><i class="social-icon fab fa-facebook-f PrBa-icon"></i></a>
-                  <a class="nav-social-icon-a-link" href="#"><i class="social-icon fab fa-twitter PrBa-icon"></i></a>
-                  <a class="nav-social-icon-a-link" href="#"><i class="social-icon fab fa-instagram PrBa-icon"></i></a>
+                  <a class="nav-social-icon-a-link" href="https://en-gb.facebook.com/wandleHA/"><i class="social-icon fab fa-facebook-f PrBa-icon"></i></a>
+                  <a class="nav-social-icon-a-link" href="https://twitter.com/wandleha/with_replies?lang=en-GB"><i class="social-icon fab fa-twitter PrBa-icon"></i></a>
+                  <a class="nav-social-icon-a-link" href="https://www.instagram.com/wandlehousingassociation/?hl=en"><i class="social-icon fab fa-instagram PrBa-icon"></i></a>
                 </div>
               </div>
             </div>
@@ -141,7 +147,7 @@
 
 
       <div class="area-welc-text-container">
-        <p class="p1-intro-light">CANADA WATER | SE16</p>
+        <p class="p1-intro-light">CANADA WATER <span id="name-pcode-seperator">|</span> SE16</p>
         <p class="p-big-italic-heading">Welcome to one of London's hottest postcodes</p>
         <p>Living on the peninsula and surrounded by water gives locals a unique chance to make the most of living at the heart of London’s popular Docklands. Water-based fun can be had by all at local water sports facilities such as the Surrey Docks Fitness and Watersports Centre that boasts a 1km water sports dock – a unique and exciting alternative to a regular gym experience.</p>
         <p>Southwark is also home to some of London’s most renowned parks and gardens; Just a 6 minute walk from The Mulberry lies 5.2 acres of open green space at Stave Hill Ecological Park. With the 30-foot high Stave Hill at the heart of the park visitors are able to enjoy panoramic views of Canary Wharf and The City, surrounded by green spaces and woodlands.</p>

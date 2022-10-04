@@ -183,6 +183,11 @@ button {
   letter-spacing: 2px;
 }
 
+.my-nav-active-color {
+  color: #FFE9A0;
+  letter-spacing: 2px;
+}
+
 .my-nav-color:hover {
   color: #FFE9A0;
 }
@@ -293,6 +298,20 @@ button {
   background-color: #F3F1E6;
   /* border-color: #F3F1E6; */
   color: #4782A6;
+  }
+
+  .nav-register-btn-active {
+    /* display: inline-block; */
+    width: 210px;
+    background-color: transparent;
+    border-color: #FFE9A0;
+    border-style: solid;
+    border-width: 2px;
+    color: #FFE9A0;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 5px 0 0 0;
+    padding: 0.5% 1% 0.5% 1%;
   }
 
 .register-btn {
@@ -1985,6 +2004,10 @@ button {
 
   .p1-intro-light {
     font-size: 2.3rem;
+  }
+
+  #name-pcode-seperator {
+    display: none;
   }
 
   .area-intro-img-container {
