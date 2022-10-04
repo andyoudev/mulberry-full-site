@@ -378,14 +378,13 @@ button {
   font-weight: 600;
 }
 
-#avail-now-mob {
+/* #avail-now-mob {
   display: none;
 }
 
 .avail-now-container {
   position: relative;
   width: 400px;
-  /* height: 250px; */
   background-color: #4782A6;
   border-color: #F3F1E6;
   border-style: solid;
@@ -410,7 +409,7 @@ button {
   font-size: 2.8rem;
   font-weight: 700;
   margin-top: -10px;
-}
+} */
 
 .p1-intro {
   /* font-family: 'Zen Tokyo Zoo', cursive; */
@@ -982,7 +981,7 @@ button {
   /* text-align: left; */
   width: 70%;
   padding-top: 0;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   margin: auto;
 }
 
@@ -1937,7 +1936,7 @@ button {
     font-weight: 600;
   } */
 
-  #avail-now-desk {
+  /* #avail-now-desk {
     display: none;
   }
 
@@ -1946,8 +1945,6 @@ button {
   }
 
   .avail-now-container {
-    /* width: 100px; */
-    /* padding: 8px 16px 8px 16px; */
     border: none;
     margin: 0 auto 0 auto;
   }
@@ -1967,7 +1964,7 @@ button {
     font-size: 2.4rem;
     font-weight: 700;
     margin-top: -10px;
-  }
+  } */
 
 
   /* .logo-img-landing {
