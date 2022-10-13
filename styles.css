@@ -164,7 +164,7 @@ button {
 .navbar {
   /* ---------------------------------------------------------------------- */
   /* changed on 5 oct to try and fix toggler icon bug on sml phones */
-  /* position: relative; */
+  position: relative;
   /* -------------------------------------------------------------------- */
   /* width: 100%; */
   padding-top: 15px;
