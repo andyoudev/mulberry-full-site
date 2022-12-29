@@ -94,48 +94,44 @@ $("#three-bed-btn").click(function() {
   document.getElementById("three-bed-btn").disabled = true;
 });
 
-// $("#one-bed-btn").click(showOneBeds());
-// $("#two-bed-btn").click(showTwoBeds());
-// $("#three-bed-btn").click(showThreeBeds());
-//
-// function showOneBeds () {
-//   $("#one-bed-btn").toggleClass("avail-btn-active");
-//   $("#two-bed-btn").removeClass("avail-btn-active");
-//   $("#three-bed-btn").removeClass("avail-btn-active");
-//
-//   $("#one-bed-avail").show();
-//   $("#two-bed-avail").hide();
-//   $("#three-bed-avail").hide();
-//
-//   document.getElementById("one-bed-btn").disabled = true;
-//   document.getElementById("two-bed-btn").disabled = false;
-//   document.getElementById("three-bed-btn").disabled = false;
-// }
-//
-// function showTwoBeds () {
-//   $("#one-bed-btn").removeClass("avail-btn-active");
-//   $("#two-bed-btn").toggleClass("avail-btn-active");
-//   $("#three-bed-btn").removeClass("avail-btn-active");
-//
-//   $("#one-bed-avail").hide();
-//   $("#two-bed-avail").show();
-//   $("#three-bed-avail").hide();
-//
-//   document.getElementById("one-bed-btn").disabled = false;
-//   document.getElementById("two-bed-btn").disabled = true;
-//   document.getElementById("three-bed-btn").disabled = false;
-// }
-//
-// function showThreeBeds () {
-//   $("#one-bed-btn").removeClass("avail-btn-active");
-//   $("#two-bed-btn").removeClass("avail-btn-active");
-//   $("#three-bed-btn").toggleClass("avail-btn-active");
-//
-//   $("#one-bed-avail").hide();
-//   $("#two-bed-avail").hide();
-//   $("#three-bed-avail").show();
-//
-//   document.getElementById("one-bed-btn").disabled = false;
-//   document.getElementById("two-bed-btn").disabled = false;
-//   document.getElementById("three-bed-btn").disabled = true;
-// }
+$("#type-1-flr-plan-btn").click(function() {
+  $("#type-1-flr-plan-btn").toggleClass("avail-btn-active");
+  $("#type-1-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-1-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-1-flr-plan").show();
+  $("#type-1-3d-model").hide();
+  $("#type-1-virt-tour").hide();
+
+  document.getElementById("type-1-flr-plan-btn").disabled = true;
+  document.getElementById("type-1-3d-model-btn").disabled = false;
+  document.getElementById("type-1-virt-tour-btn").disabled = false;
+});
+
+$("#type-1-3d-model-btn").click(function() {
+  $("#type-1-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-1-3d-model-btn").toggleClass("avail-btn-active");
+  $("#type-1-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-1-flr-plan").hide();
+  $("#type-1-3d-model").show();
+  $("#type-1-virt-tour").hide();
+
+  document.getElementById("type-1-flr-plan-btn").disabled = false;
+  document.getElementById("type-1-3d-model-btn").disabled = true;
+  document.getElementById("type-1-virt-tour-btn").disabled = false;
+});
+
+$("#type-1-virt-tour-btn").click(function() {
+  $("#type-1-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-1-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-1-virt-tour-btn").toggleClass("avail-btn-active");
+
+  $("#type-1-flr-plan").hide();
+  $("#type-1-3d-model").hide();
+  $("#type-1-virt-tour").show();
+
+  document.getElementById("type-1-flr-plan-btn").disabled = false;
+  document.getElementById("type-1-3d-model-btn").disabled = false;
+  document.getElementById("type-1-virt-tour-btn").disabled = true;
+});
