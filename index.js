@@ -135,3 +135,223 @@ $("#type-1-virt-tour-btn").click(function() {
   document.getElementById("type-1-3d-model-btn").disabled = false;
   document.getElementById("type-1-virt-tour-btn").disabled = true;
 });
+
+//-----------2---------------------------
+
+$("#type-2-flr-plan-btn").click(function() {
+  $("#type-2-flr-plan-btn").toggleClass("avail-btn-active");
+  $("#type-2-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-2-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-2-flr-plan").show();
+  $("#type-2-3d-model").hide();
+  $("#type-2-virt-tour").hide();
+
+  document.getElementById("type-2-flr-plan-btn").disabled = true;
+  document.getElementById("type-2-3d-model-btn").disabled = false;
+  document.getElementById("type-2-virt-tour-btn").disabled = false;
+});
+
+$("#type-2-3d-model-btn").click(function() {
+  $("#type-2-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-2-3d-model-btn").toggleClass("avail-btn-active");
+  $("#type-2-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-2-flr-plan").hide();
+  $("#type-2-3d-model").show();
+  $("#type-2-virt-tour").hide();
+
+  document.getElementById("type-2-flr-plan-btn").disabled = false;
+  document.getElementById("type-2-3d-model-btn").disabled = true;
+  document.getElementById("type-2-virt-tour-btn").disabled = false;
+});
+
+$("#type-2-virt-tour-btn").click(function() {
+  $("#type-2-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-2-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-2-virt-tour-btn").toggleClass("avail-btn-active");
+
+  $("#type-2-flr-plan").hide();
+  $("#type-2-3d-model").hide();
+  $("#type-2-virt-tour").show();
+
+  document.getElementById("type-2-flr-plan-btn").disabled = false;
+  document.getElementById("type-2-3d-model-btn").disabled = false;
+  document.getElementById("type-2-virt-tour-btn").disabled = true;
+});
+
+//-------------------------------3------------------------------
+
+$("#type-3-flr-plan-btn").click(function() {
+  $("#type-3-flr-plan-btn").toggleClass("avail-btn-active");
+  $("#type-3-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-3-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-3-flr-plan").show();
+  $("#type-3-3d-model").hide();
+  $("#type-3-virt-tour").hide();
+
+  document.getElementById("type-3-flr-plan-btn").disabled = true;
+  document.getElementById("type-3-3d-model-btn").disabled = false;
+  document.getElementById("type-3-virt-tour-btn").disabled = false;
+});
+
+$("#type-3-3d-model-btn").click(function() {
+  $("#type-3-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-3-3d-model-btn").toggleClass("avail-btn-active");
+  $("#type-3-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-3-flr-plan").hide();
+  $("#type-3-3d-model").show();
+  $("#type-3-virt-tour").hide();
+
+  document.getElementById("type-3-flr-plan-btn").disabled = false;
+  document.getElementById("type-3-3d-model-btn").disabled = true;
+  document.getElementById("type-3-virt-tour-btn").disabled = false;
+});
+
+$("#type-3-virt-tour-btn").click(function() {
+  $("#type-3-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-3-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-3-virt-tour-btn").toggleClass("avail-btn-active");
+
+  $("#type-3-flr-plan").hide();
+  $("#type-3-3d-model").hide();
+  $("#type-3-virt-tour").show();
+
+  document.getElementById("type-3-flr-plan-btn").disabled = false;
+  document.getElementById("type-3-3d-model-btn").disabled = false;
+  document.getElementById("type-3-virt-tour-btn").disabled = true;
+});
+
+//---------------------4------------------------------------------
+
+$("#type-4-flr-plan-btn").click(function() {
+  $("#type-4-flr-plan-btn").toggleClass("avail-btn-active");
+  $("#type-4-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-4-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-4-flr-plan").show();
+  $("#type-4-3d-model").hide();
+  $("#type-4-virt-tour").hide();
+
+  document.getElementById("type-4-flr-plan-btn").disabled = true;
+  document.getElementById("type-4-3d-model-btn").disabled = false;
+  document.getElementById("type-4-virt-tour-btn").disabled = false;
+});
+
+$("#type-4-3d-model-btn").click(function() {
+  $("#type-4-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-4-3d-model-btn").toggleClass("avail-btn-active");
+  $("#type-4-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-4-flr-plan").hide();
+  $("#type-4-3d-model").show();
+  $("#type-4-virt-tour").hide();
+
+  document.getElementById("type-4-flr-plan-btn").disabled = false;
+  document.getElementById("type-4-3d-model-btn").disabled = true;
+  document.getElementById("type-4-virt-tour-btn").disabled = false;
+});
+
+$("#type-4-virt-tour-btn").click(function() {
+  $("#type-4-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-4-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-4-virt-tour-btn").toggleClass("avail-btn-active");
+
+  $("#type-4-flr-plan").hide();
+  $("#type-4-3d-model").hide();
+  $("#type-4-virt-tour").show();
+
+  document.getElementById("type-4-flr-plan-btn").disabled = false;
+  document.getElementById("type-4-3d-model-btn").disabled = false;
+  document.getElementById("type-4-virt-tour-btn").disabled = true;
+});
+
+//------------------------5--------------------------------------
+
+$("#type-5-flr-plan-btn").click(function() {
+  $("#type-5-flr-plan-btn").toggleClass("avail-btn-active");
+  $("#type-5-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-5-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-5-flr-plan").show();
+  $("#type-5-3d-model").hide();
+  $("#type-5-virt-tour").hide();
+
+  document.getElementById("type-5-flr-plan-btn").disabled = true;
+  document.getElementById("type-5-3d-model-btn").disabled = false;
+  document.getElementById("type-5-virt-tour-btn").disabled = false;
+});
+
+$("#type-5-3d-model-btn").click(function() {
+  $("#type-5-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-5-3d-model-btn").toggleClass("avail-btn-active");
+  $("#type-5-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-5-flr-plan").hide();
+  $("#type-5-3d-model").show();
+  $("#type-5-virt-tour").hide();
+
+  document.getElementById("type-5-flr-plan-btn").disabled = false;
+  document.getElementById("type-5-3d-model-btn").disabled = true;
+  document.getElementById("type-5-virt-tour-btn").disabled = false;
+});
+
+$("#type-5-virt-tour-btn").click(function() {
+  $("#type-5-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-5-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-5-virt-tour-btn").toggleClass("avail-btn-active");
+
+  $("#type-5-flr-plan").hide();
+  $("#type-5-3d-model").hide();
+  $("#type-5-virt-tour").show();
+
+  document.getElementById("type-5-flr-plan-btn").disabled = false;
+  document.getElementById("type-5-3d-model-btn").disabled = false;
+  document.getElementById("type-5-virt-tour-btn").disabled = true;
+});
+
+//----------------------------6--------------------------------------
+
+$("#type-6-flr-plan-btn").click(function() {
+  $("#type-6-flr-plan-btn").toggleClass("avail-btn-active");
+  $("#type-6-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-6-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-6-flr-plan").show();
+  $("#type-6-3d-model").hide();
+  $("#type-6-virt-tour").hide();
+
+  document.getElementById("type-6-flr-plan-btn").disabled = true;
+  document.getElementById("type-6-3d-model-btn").disabled = false;
+  document.getElementById("type-6-virt-tour-btn").disabled = false;
+});
+
+$("#type-6-3d-model-btn").click(function() {
+  $("#type-6-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-6-3d-model-btn").toggleClass("avail-btn-active");
+  $("#type-6-virt-tour-btn").removeClass("avail-btn-active");
+
+  $("#type-6-flr-plan").hide();
+  $("#type-6-3d-model").show();
+  $("#type-6-virt-tour").hide();
+
+  document.getElementById("type-6-flr-plan-btn").disabled = false;
+  document.getElementById("type-6-3d-model-btn").disabled = true;
+  document.getElementById("type-6-virt-tour-btn").disabled = false;
+});
+
+$("#type-6-virt-tour-btn").click(function() {
+  $("#type-6-flr-plan-btn").removeClass("avail-btn-active");
+  $("#type-6-3d-model-btn").removeClass("avail-btn-active");
+  $("#type-6-virt-tour-btn").toggleClass("avail-btn-active");
+
+  $("#type-6-flr-plan").hide();
+  $("#type-6-3d-model").hide();
+  $("#type-6-virt-tour").show();
+
+  document.getElementById("type-6-flr-plan-btn").disabled = false;
+  document.getElementById("type-6-3d-model-btn").disabled = false;
+  document.getElementById("type-6-virt-tour-btn").disabled = true;
+});

@@ -1190,6 +1190,46 @@ button {
   display: none;
 }
 
+#type-2-3d-model {
+  display: none;
+}
+
+#type-2-virt-tour {
+  display: none;
+}
+
+#type-3-3d-model {
+  display: none;
+}
+
+#type-3-virt-tour {
+  display: none;
+}
+
+#type-4-3d-model {
+  display: none;
+}
+
+#type-4-virt-tour {
+  display: none;
+}
+
+#type-5-3d-model {
+  display: none;
+}
+
+#type-5-virt-tour {
+  display: none;
+}
+
+#type-6-3d-model {
+  display: none;
+}
+
+#type-6-virt-tour {
+  display: none;
+}
+
 .apartment-iframe-container {
   width: 850px;
   margin: auto;
